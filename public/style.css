@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.app__nav {
+    display: flex;
+    gap: 10px;
+    background-color: rgb(75, 74, 74);
+    padding: 10px;
+    margin-bottom: 10px;
+
+    a {
+        text-decoration: none;
+        color: #000000;
+        background-color: #F2F2F2;
+        padding: 10px;
+        border-radius: 5px;
+        width: 100px;
+        text-align: center;
+        font-weight: bold;
+    }
+}
+
+.app__table {
+    margin: 10px;
+
+    th {
+        background-color: #9c9b9b;
+    }
+
+    table, th, td {
+        border: 1px solid;
+        border-collapse: collapse;
+        padding: 10px;
+    }
+}
+
